@@ -1,0 +1,16 @@
+$primaryColor: darkcyan;
+$secondaryColor: blue;
+
+
+h1 {
+	color: $primaryColor;
+}
+
+.container {
+	&__subtitle {
+		color: $secondaryColor;
+		display: block;
+		height: 271px;
+		background: url("../images/webpack.webp");
+	}
+}
